@@ -29,6 +29,10 @@
 	display: none;
 }
 
+.mailing__form input {
+	-webkit-appearance: none;
+	border-radius: 0;
+}
 
 .mailing__form input[type="email"] {
 	width: 400px;
@@ -37,7 +41,6 @@
 	border: $quite-nice-border $quite-nice-green;
 	color: $quite-nice-grey;
 	transition: all 0.2s;
-	-webkit-appearance: none;
 }
 
 .mailing__form input[type="submit"] {
@@ -49,7 +52,6 @@
 	text-transform: uppercase;
 	color: #ffffff;
 	transition: 0.2s;
-	-webkit-appearance: none;
 }
 
 .mailing__form input[type="submit"]:hover {
