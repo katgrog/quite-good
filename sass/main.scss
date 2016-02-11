@@ -3,15 +3,27 @@
 
 
 // base
-@import "base/type";
 @import "base/vars";
+@import "base/type";
 
 
 // module
-@import "modules/header";
 @import "modules/animation";
-@import "modules/social-links";
+@import "modules/header";
 @import "modules/navigation";
-@import "modules/display";
-@import "modules/about";
-@import "modules/galleries";
+// @import "modules/about";
+
+
+body {
+	background-color: $quite-nice-background;
+	font-family: $quite-nice-font;
+	font-size: $quite-nice-font-size;
+	font-weight: $quite-nice-font-weight;
+	color: $quite-nice-grey;
+}
+
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}

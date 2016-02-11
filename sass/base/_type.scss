@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'josefin';
+	src: url('../fonts/JosefinSans-Regular.ttf');
+}
+
+.main__subheading {
+	display: inline-block;
+	margin: 40px auto;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	color: $quite-nice-green;
+	border-bottom: $quite-nice-dashedborder $quite-nice-yellow;
+}

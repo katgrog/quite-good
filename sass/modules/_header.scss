@@ -1,0 +1,59 @@
+
+.header__content {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+
+h1 {
+	background-color: #fefefe;
+	text-align: center;
+	padding: 20px 0;
+	letter-spacing: 0.15em;
+	font-size: 30px;
+	font-weight: 700;
+	color: $quite-nice-green;
+}
+
+.header__social-icons {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.header__social-icons a {
+	margin: 0 20px 0 0;
+}
+
+.header__shop-icon {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+.header__content--shop h1 {
+	background-color: #F9F8F8;
+	padding: 20px 0 20px 0;
+}
+
+
+.header__content a, .header__content--shop a {
+	text-decoration: none;
+}
+
+
+.instagram__stroke--scroll, .twitter__stroke--scroll {
+	fill: $quite-nice-yellow;
+}
+
+.header__content--scroll {
+	border-bottom: $quite-nice-border #ece9e9;
+	background-color: #f4f4f4;
+}
+
+.header__icons--scroll {
+	-webkit-animation: nudge 0.7s;
+}
