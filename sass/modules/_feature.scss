@@ -10,3 +10,16 @@
 	background-attachment: fixed;
 	overflow: hidden;
 }
+
+
+@media (max-width: 1050px) {
+	.feature__img {
+		background-attachment: scroll;
+	}
+}
+
+@media (max-width: 800px) {
+	.feature__img {
+		background-position: right;
+	}
+}

@@ -71,3 +71,20 @@
 	color: $quite-nice-yellow;
 	letter-spacing: 0.05em;
 }
+
+@media (max-width: 600px) {
+	.mailing__form {
+		height: 130px;
+		padding: 20px 0 0 0;
+	}
+
+	.mailing__form input[type="email"], .mailing__form input[type="submit"] {
+		width: 90%;
+		margin: 5px 0;
+	}
+
+	.mailing__success-message {
+		padding: 10px 20px 0 20px;
+		line-height: 1.5;
+	}
+}

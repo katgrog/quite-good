@@ -1,0 +1,83 @@
+
+.accessories__content {
+	padding: 40px;
+	display: flex;
+	justify-content: space-around;;
+	flex-direction: row;
+}
+
+.accessories__product {
+	width: 250px;
+	height: 250px;
+	cursor: pointer;
+}
+
+.accessories__product--one {
+	background: url(../images/card.jpg);
+	background-size: cover;
+}
+
+.accessories__product--two {
+	background: url(../images/hay.jpg);
+	background-size: cover;
+}
+
+.accessories__product--three {
+	background: url(../images/pencil.jpg);
+	background-size: cover;
+}
+
+
+.accessories__product--overlay {
+	padding: 125px 0 125px 0;
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+.accessories__product--overlay h2 {
+	display: inline-block;
+	margin: 0 0 20px 0;
+	font-size: 24px;
+	color: $quite-nice-green;
+	border-bottom: $quite-nice-dashedborder $quite-nice-yellow;
+}
+
+.accessories__product--overlay:hover {
+	opacity: 0.9;
+}
+
+
+@media (max-width: 950px) {
+	.accessories__content {
+		padding: 40px 20px;
+	}
+}
+
+@media (max-width: 800px) {
+	.accessories__product {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 700px) {
+	.accessories__content {
+		flex-wrap: wrap;
+	}
+
+	.accessories__product {
+		margin-bottom: 20px;
+	}
+
+	.accessories__product, .accessories__product--overlay {
+		width: 500px;
+		height: 300px;
+	}
+
+	.accessories__product--overlay {
+		padding: 150px 0 150px 0;
+	}
+}

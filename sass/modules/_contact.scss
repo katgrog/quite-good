@@ -43,3 +43,37 @@
 	float: left;
 	margin: 50px 0 0 0;
 }
+
+@media (max-width: 1050px) {
+	.contact__info, .contact__map {
+		float: none;
+		width: 100%;
+	}
+
+	.contact__content {
+		height: 100%;
+	}
+
+	.contact__heading {
+		margin-top: 0;
+	}
+
+	.contact__info {
+		width: 100%;
+	}
+
+	.contact__email--text {
+		margin: 0 0 20px 0;
+	}
+
+	.contact__map iframe {
+		width: 80%;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.contact__heading {
+		margin-top: 0;
+	}
+}

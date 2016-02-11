@@ -57,3 +57,28 @@ h1 {
 .header__icons--scroll {
 	-webkit-animation: nudge 0.7s;
 }
+
+
+
+@media (max-width: 1050px) {
+	.header__content {
+		position: static;
+	}
+
+	.header__content--scroll {
+		border-bottom: 0;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.header__social-icons svg, .header__shop-icon svg{
+		width: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	.header__social-icons, .header__shop-icon {
+		display: none;
+	}
+}

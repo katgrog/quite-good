@@ -11,3 +11,11 @@
 	color: $quite-nice-green;
 	border-bottom: $quite-nice-dashedborder $quite-nice-yellow;
 }
+
+
+
+@media (max-width: 800px) {
+	.main__subheading {
+		margin: 20px 0;
+	}
+}

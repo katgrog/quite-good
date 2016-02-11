@@ -58,3 +58,54 @@
 	float: right;
 	font-weight: 700;
 }
+
+
+@media (max-width: 1050px) {
+	.navigation {
+		margin-top: 0;
+	}
+
+	.accessories__navigation {
+		margin-top: 30px;
+	}
+
+	.main__navigation--shop {
+		display: none;
+	}
+}
+
+
+@media (max-width: 950px) {
+	.accessories__navigation {
+		margin-top: 0;
+	}
+
+	.accessories__navigation a {
+		display: block;
+		padding: 20px 0;
+		margin: 0;
+	}
+
+	.shop__other {
+		float: none;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.main__navigation {
+		padding: 0;
+	}
+
+	.main__navigation a {
+		display: block;
+		margin: 0;
+		padding: 20px 0;
+		border: none;
+	}
+
+	.main__navigation a:hover {
+		background-color: #f0f0f0;
+		border: none;
+	}
+}

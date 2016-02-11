@@ -59,3 +59,74 @@
 	-webkit-animation: quickzoom ease-in-out 0.3s;
 	background-color: $quite-nice-yellow;
 }
+
+
+@media (max-width: 1050px) {
+	.about__content {
+		position: relative;
+	}
+
+	.about__content, .about__links {
+		float: none;
+		width: 100%;
+	}
+
+	.about__links {
+		margin-top: 60px;
+	}
+
+	.about__link {
+		display: inline;
+		padding: 10px 60px;
+		margin: 0 20px;
+	}
+
+	.about__link--back {
+		width: 100%;
+		margin: 0;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: -70px;
+		left: 50%;
+		background-color: #f4f3f3;
+		color: $quite-nice-green;
+		border-bottom: $quite-nice-border $quite-nice-green;
+	}
+
+	.about__link--back:hover {
+		color: $quite-nice-yellow;
+	}
+}
+
+
+@media (max-width: 800px) {
+	.about__wrapper {
+		height: 100%;
+	}
+
+	.about__heading {
+		margin-top: 20px;
+	}
+
+	.about__content {
+		padding-bottom: 0;
+	}
+
+	.about__content--primary {
+		padding-bottom: 50px;
+	}
+
+	.about__content--secondary {
+		margin-top: 0;
+	}
+
+	.about__link {
+		display: block;
+		margin: 10px auto;
+		width: 80%;
+	}
+
+	.about__link--back {
+		top: -35px;
+	}
+}
