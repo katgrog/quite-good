@@ -1,13 +1,21 @@
 @font-face {
 	font-family: 'josefin';
-	src: url('../fonts/JosefinSans-Regular.ttf');
-	font-weight: 400;
+	src: url('../fonts/josefinsans-regular.eot');
+	src: url('../fonts/josefinsans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/josefinsans-regular.woff') format('woff'),
+         url('../fonts/josefinsans-regular.ttf') format('truetype'),
+         url('../fonts/josefinsans-regular.svg#josefinsans-regular') format('svg');
+	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'josefin';
-	src: url('../fonts/JosefinSans-Bold.ttf');
-	font-weight: 700;
+	src: url('../fonts/josefinsans-bold.eot');
+	src: url('../fonts/josefinsans-bold.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/josefinsans-bold.woff') format('woff'),
+				 url('../fonts/josefinsans-bold.ttf') format('truetype'),
+				 url('../fonts/josefinsans-bold.svg#josefinsans-regular') format('svg');
+	font-weight: bold;
 }
 
 .main__subheading {

@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'josefin';
-  src: url("../fonts/JosefinSans-Regular.ttf"), url("../fonts/JosefinSans-Bold.ttf"); }
+  src: url("../fonts/josefinsans-regular.eot");
+  src: url("../fonts/josefinsans-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinsans-regular.woff") format("woff"), url("../fonts/josefinsans-regular.ttf") format("truetype"), url("../fonts/josefinsans-regular.svg#josefinsans-regular") format("svg");
+  font-weight: normal; }
+@font-face {
+  font-family: 'josefin';
+  src: url("../fonts/josefinsans-bold.eot");
+  src: url("../fonts/josefinsans-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/josefinsans-bold.woff") format("woff"), url("../fonts/josefinsans-bold.ttf") format("truetype"), url("../fonts/josefinsans-bold.svg#josefinsans-regular") format("svg");
+  font-weight: bold; }
 .main__subheading {
   display: inline-block;
   margin: 40px auto;
@@ -46,7 +53,7 @@ h1 {
   padding: 20px 0;
   letter-spacing: 0.15em;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   color: #a0af97; }
 
 .header__social-icons {
@@ -566,7 +573,7 @@ body {
   background-color: #ffffff;
   font-family: "josefin", sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: normal;
   letter-spacing: 0.1em;
   color: #797878; }
 
