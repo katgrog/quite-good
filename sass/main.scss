@@ -11,7 +11,11 @@
 @import "modules/animation";
 @import "modules/header";
 @import "modules/navigation";
-// @import "modules/about";
+@import "modules/feature";
+@import "modules/mailing";
+@import "modules/product-type";
+@import "modules/about";
+@import "modules/contact";
 
 
 body {
@@ -19,6 +23,7 @@ body {
 	font-family: $quite-nice-font;
 	font-size: $quite-nice-font-size;
 	font-weight: $quite-nice-font-weight;
+	letter-spacing: $quite-nice-letter-spacing;
 	color: $quite-nice-grey;
 }
 
@@ -26,4 +31,10 @@ body {
 .container {
 	width: 980px;
 	margin: 0 auto;
+}
+
+footer {
+	height: 100px;
+	border-top: $quite-nice-border $quite-nice-yellow;
+	text-align: center;
 }

@@ -17,7 +17,6 @@
 .main__navigation a {
 	display: inline-block;
 	font-size: 18px;
-	letter-spacing: 0.1em;
 	color: $quite-nice-grey;
 	border-bottom: $quite-nice-border #f9f8f8;
 	transition: all 0.1s;
@@ -47,7 +46,6 @@
 .accessories__link, .shop__other {
 	font-size: 14px;
 	color: $quite-nice-green;
-	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	transition: all 0.4s;
 }

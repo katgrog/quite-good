@@ -1,0 +1,45 @@
+
+.contact__content {
+	height: 600px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contact__info {
+	width: 50%;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 0.05em;
+}
+
+.contact__email {
+	margin-top: 60px;
+	letter-spacing: 0.05em;
+}
+
+
+.contact__email--image-hover {
+	-webkit-animation: swing infinite 0.5s;
+}
+
+.contact__email--fill-hover {
+	fill: $quite-nice-yellow;
+}
+
+.contact__email--text {
+	margin: 20px 0 0 0;
+}
+
+.contact__email--link {
+	color: $quite-nice-green;
+	text-decoration: none;
+}
+
+.contact__map {
+	width: 50%;
+	float: left;
+	margin: 50px 0 0 0;
+}

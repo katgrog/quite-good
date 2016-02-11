@@ -91,7 +91,6 @@ h1 {
 .main__navigation a {
   display: inline-block;
   font-size: 18px;
-  letter-spacing: 0.1em;
   color: #797878;
   border-bottom: 3px solid #f9f8f8;
   transition: all 0.1s; }
@@ -115,7 +114,6 @@ h1 {
 .accessories__link, .shop__other {
   font-size: 14px;
   color: #a0af97;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: all 0.4s; }
 
@@ -126,15 +124,219 @@ h1 {
   float: right;
   font-weight: 700; }
 
+.feature__content {
+  height: 400px; }
+
+.feature__img {
+  height: 100%;
+  background: url(../images/pic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+.mailing__join-message {
+  height: 60px;
+  border-bottom: 3px solid #98AE99;
+  border-top: 3px solid #ECE9E9;
+  text-align: center; }
+
+.mailing__join-text {
+  line-height: 60px;
+  color: #797878;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.3s; }
+
+.mailing__join-text:hover, .mailing__join-text--clicked {
+  color: #a0af97; }
+
+.mailing__form {
+  height: 110px;
+  background-color: #f9f8f8;
+  padding: 40px 0 0 0;
+  border-bottom: 3px solid #a0af97;
+  text-align: center;
+  display: none; }
+
+.mailing__form input[type="email"] {
+  width: 400px;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 3px solid #a0af97;
+  color: #797878;
+  transition: all 0.2s; }
+
+.mailing__form input[type="email"]:focus, input[type="submit"]:focus {
+  outline: 0;
+  border-color: #edc67e; }
+
+.mailing__form input[type="submit"] {
+  background-color: #a0af97;
+  margin: 0 0 0 10px;
+  padding: 5px 15px;
+  border: 3px solid #a0af97;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: 0.2s; }
+
+.mailing__form input[type="submit"]:hover {
+  background-color: #edc67e;
+  border-color: #edc67e; }
+
+::-webkit-input-placeholder {
+  color: #797878; }
+
+.mailing__success-message {
+  font-size: 20px;
+  font-weight: 700;
+  color: #edc67e;
+  letter-spacing: 0.05em; }
+
+.shop__content {
+  text-align: center;
+  margin: 0 0 50px 0; }
+
+.shop__content a {
+  text-decoration: none; }
+
+.shop__products {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 60px; }
+
+.shop__product-type {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0; }
+
+.shop__accessories {
+  background: url(../images/hay.jpg);
+  background-size: cover; }
+
+.shop__cards {
+  background: url(../images/card.jpg);
+  background-size: cover; }
+
+.shop__pens-pencils {
+  background: url(../images/pencil.jpg);
+  background-size: cover; }
+
+.shop__product-type--overlay {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 150px 0 150px 0;
+  font-size: 30px;
+  color: #a0af97;
+  opacity: 0;
+  transition: all 0.2s; }
+
+.shop__product-type--overlay:hover {
+  opacity: 0.9; }
+
+.about__wrapper {
+  height: 450px;
+  text-align: center;
+  background-color: #f4f3f3; }
+
+.about__content {
+  width: 50%; }
+
+.about__content a {
+  text-decoration: none; }
+
+.about__content--primary {
+  float: left;
+  padding: 0 50px 0 50px; }
+
+.about__content--secondary {
+  float: right;
+  margin: 100px 0 0 0; }
+
+.about__heading {
+  margin: 60px 0 20px 0; }
+
+.about__text {
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 1.5; }
+
+.about__text span {
+  color: #a0af97;
+  letter-spacing: 0.1em; }
+
+.about__link, .about__link--back {
+  width: 350px;
+  background-color: #a0af97;
+  padding: 10px 0;
+  margin: 20px auto;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  transition: all 0.4s; }
+
+.about__link--back {
+  background-color: #edc67e;
+  transition: all 0; }
+
+.about__link:hover {
+  -webkit-animation: quickzoom ease-in-out 0.3s;
+  background-color: #edc67e; }
+
+.contact__content {
+  height: 600px;
+  text-align: center;
+  padding: 20px 0; }
+
+.contact__info {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.05em; }
+
+.contact__email {
+  margin-top: 60px;
+  letter-spacing: 0.05em; }
+
+.contact__email--image-hover {
+  -webkit-animation: swing infinite 0.5s; }
+
+.contact__email--fill-hover {
+  fill: #edc67e; }
+
+.contact__email--text {
+  margin: 20px 0 0 0; }
+
+.contact__email--link {
+  color: #a0af97;
+  text-decoration: none; }
+
+.contact__map {
+  width: 50%;
+  float: left;
+  margin: 50px 0 0 0; }
+
 body {
   background-color: #ffffff;
   font-family: "josefin", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: 0.1em;
   color: #797878; }
 
 .container {
   width: 980px;
   margin: 0 auto; }
+
+footer {
+  height: 100px;
+  border-top: 3px solid #edc67e;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

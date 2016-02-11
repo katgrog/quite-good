@@ -110,7 +110,7 @@ $('.about__link--back').hide();
 // reveal back button
 $('.about__link').on('click', function(){
 
-	$('.about__link--back').fadeIn(1000);
+	$('.about__link--back').fadeIn(100);
 
 });
 

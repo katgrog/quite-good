@@ -1,0 +1,73 @@
+
+.mailing__join-message {
+	height: 60px;
+	border-bottom: $quite-nice-border #98AE99;
+	border-top: $quite-nice-border #ECE9E9;
+	text-align: center;
+}
+
+.mailing__join-text {
+	line-height: 60px;
+	color: $quite-nice-grey;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.mailing__join-text:hover, .mailing__join-text--clicked {
+	color: $quite-nice-green;
+}
+
+
+.mailing__form {
+	height: 110px;
+	background-color: #f9f8f8;
+	padding: 40px 0 0 0;
+	border-bottom: $quite-nice-border $quite-nice-green;
+	text-align: center;
+	display: none;
+}
+
+
+.mailing__form input[type="email"] {
+	width: 400px;
+	padding: 5px;
+	background-color: #ffffff;
+	border: $quite-nice-border $quite-nice-green;
+	color: $quite-nice-grey;
+	transition: all 0.2s;
+}
+
+.mailing__form input[type="email"]:focus, input[type="submit"]:focus {
+	outline: 0;
+	border-color: $quite-nice-yellow;
+}
+
+.mailing__form input[type="submit"] {
+	background-color: $quite-nice-green;
+	margin: 0 0 0 10px;
+	padding: 5px 15px;
+	border: $quite-nice-border $quite-nice-green;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #ffffff;
+	transition: 0.2s;
+}
+
+.mailing__form input[type="submit"]:hover {
+	background-color: $quite-nice-yellow;
+	border-color: $quite-nice-yellow;
+}
+
+::-webkit-input-placeholder {
+	color: $quite-nice-grey;
+}
+
+
+.mailing__success-message {
+	font-size: 20px;
+	font-weight: 700;
+	color: $quite-nice-yellow;
+	letter-spacing: 0.05em;
+}
