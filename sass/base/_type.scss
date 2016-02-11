@@ -1,6 +1,7 @@
 @font-face {
 	font-family: 'josefin';
-	src: url('../fonts/JosefinSans-Regular.ttf');
+	src: url('../fonts/JosefinSans-Regular.ttf'),
+			 url('../fonts/JosefinSans-Bold.ttf');
 }
 
 .main__subheading {
@@ -11,7 +12,6 @@
 	color: $quite-nice-green;
 	border-bottom: $quite-nice-dashedborder $quite-nice-yellow;
 }
-
 
 
 @media (max-width: 800px) {

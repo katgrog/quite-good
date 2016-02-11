@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'josefin';
-  src: url("../fonts/JosefinSans-Regular.ttf"); }
+  src: url("../fonts/JosefinSans-Regular.ttf"), url("../fonts/JosefinSans-Bold.ttf"); }
 .main__subheading {
   display: inline-block;
   margin: 40px auto;
@@ -223,7 +223,8 @@ h1 {
 
 .mailing__form input[type="email"]:focus, input[type="submit"]:focus {
   outline: 0;
-  border-color: #edc67e; }
+  border-color: #edc67e;
+  -webkit-appearance: none; }
 
 .mailing__form input[type="submit"] {
   background-color: #a0af97;
@@ -256,6 +257,9 @@ h1 {
   .mailing__form input[type="email"], .mailing__form input[type="submit"] {
     width: 90%;
     margin: 5px 0; }
+
+  .mailing__form input[type="email"] {
+    text-align: center; }
 
   .mailing__success-message {
     padding: 10px 20px 0 20px;
