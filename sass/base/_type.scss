@@ -1,7 +1,9 @@
 @font-face {
 	font-family: 'josefin';
-	src: url('../fonts/JosefinSans-Regular.ttf'),
-			 url('../fonts/JosefinSans-Bold.ttf');
+	src: url('../fonts/JosefinSans-Regular.ttf');
+
+	font-family: 'josefin-bold';
+	src: url('../fonts/JosefinSans-Bold.ttf');
 }
 
 .main__subheading {
